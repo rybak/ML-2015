@@ -1,0 +1,70 @@
+k:  2
+Total error: 0.39130
+Precision: 0.52941
+Recall: 0.90000
+F1-metric: 0.66667
+k:  3
+Total error: 0.26087
+Precision: 0.64286
+Recall: 0.90000
+F1-metric: 0.75000
+k:  4
+Total error: 0.34783
+Precision: 0.56250
+Recall: 0.90000
+F1-metric: 0.69231
+k:  5
+Total error: 0.30435
+Precision: 0.63636
+Recall: 0.70000
+F1-metric: 0.66667
+k:  6
+Total error: 0.21739
+Precision: 0.66667
+Recall: 1.00000
+F1-metric: 0.80000
+k:  7
+Total error: 0.30435
+Precision: 0.61538
+Recall: 0.80000
+F1-metric: 0.69565
+k:  8
+Total error: 0.26087
+Precision: 0.62500
+Recall: 1.00000
+F1-metric: 0.76923
+k:  9
+Total error: 0.26087
+Precision: 0.64286
+Recall: 0.90000
+F1-metric: 0.75000
+k:  10
+Total error: 0.30435
+Precision: 0.60000
+Recall: 0.90000
+F1-metric: 0.72000
+k:  11
+Total error: 0.30435
+Precision: 0.61538
+Recall: 0.80000
+F1-metric: 0.69565
+k:  12
+Total error: 0.39130
+Precision: 0.53333
+Recall: 0.80000
+F1-metric: 0.64000
+k:  13
+Total error: 0.34783
+Precision: 0.57143
+Recall: 0.80000
+F1-metric: 0.66667
+k:  14
+Total error: 0.30435
+Precision: 0.60000
+Recall: 0.90000
+F1-metric: 0.72000
+Best k: 6
+Total error: 0.21739
+Precision: 0.66667
+Recall: 1.00000
+F1-metric: 0.80000
