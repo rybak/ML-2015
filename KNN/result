@@ -1,70 +1,70 @@
 k:  2
-Total error: 0.39130
-Precision: 0.52941
-Recall: 0.90000
-F1-metric: 0.66667
+Total error: 0.27119
+Precision: 0.65116
+Recall: 0.96552
+F1-metric: 0.77778
 k:  3
-Total error: 0.26087
-Precision: 0.64286
-Recall: 0.90000
-F1-metric: 0.75000
+Total error: 0.18644
+Precision: 0.79032
+Recall: 0.84483
+F1-metric: 0.81667
 k:  4
-Total error: 0.34783
-Precision: 0.56250
-Recall: 0.90000
-F1-metric: 0.69231
+Total error: 0.22881
+Precision: 0.70667
+Recall: 0.91379
+F1-metric: 0.79699
 k:  5
-Total error: 0.30435
-Precision: 0.63636
-Recall: 0.70000
-F1-metric: 0.66667
+Total error: 0.16949
+Precision: 0.80645
+Recall: 0.86207
+F1-metric: 0.83333
 k:  6
-Total error: 0.21739
-Precision: 0.66667
-Recall: 1.00000
-F1-metric: 0.80000
+Total error: 0.19492
+Precision: 0.75362
+Recall: 0.89655
+F1-metric: 0.81890
 k:  7
-Total error: 0.30435
-Precision: 0.61538
-Recall: 0.80000
-F1-metric: 0.69565
+Total error: 0.16949
+Precision: 0.82759
+Recall: 0.82759
+F1-metric: 0.82759
 k:  8
-Total error: 0.26087
-Precision: 0.62500
-Recall: 1.00000
-F1-metric: 0.76923
+Total error: 0.21186
+Precision: 0.72603
+Recall: 0.91379
+F1-metric: 0.80916
 k:  9
-Total error: 0.26087
-Precision: 0.64286
-Recall: 0.90000
-F1-metric: 0.75000
+Total error: 0.19492
+Precision: 0.76923
+Recall: 0.86207
+F1-metric: 0.81301
 k:  10
-Total error: 0.30435
-Precision: 0.60000
-Recall: 0.90000
-F1-metric: 0.72000
+Total error: 0.27966
+Precision: 0.65823
+Recall: 0.89655
+F1-metric: 0.75912
 k:  11
-Total error: 0.30435
-Precision: 0.61538
-Recall: 0.80000
-F1-metric: 0.69565
+Total error: 0.25424
+Precision: 0.71212
+Recall: 0.81034
+F1-metric: 0.75806
 k:  12
-Total error: 0.39130
-Precision: 0.53333
-Recall: 0.80000
-F1-metric: 0.64000
+Total error: 0.30508
+Precision: 0.63415
+Recall: 0.89655
+F1-metric: 0.74286
 k:  13
-Total error: 0.34783
-Precision: 0.57143
-Recall: 0.80000
-F1-metric: 0.66667
+Total error: 0.26271
+Precision: 0.70149
+Recall: 0.81034
+F1-metric: 0.75200
 k:  14
-Total error: 0.30435
-Precision: 0.60000
-Recall: 0.90000
-F1-metric: 0.72000
-Best k: 6
-Total error: 0.21739
-Precision: 0.66667
-Recall: 1.00000
-F1-metric: 0.80000
+Total error: 0.33051
+Precision: 0.60920
+Recall: 0.91379
+F1-metric: 0.73103
+Best k: 5
+Total error: 0.16949
+Precision: 0.80645
+Recall: 0.86207
+F1-metric: 0.83333

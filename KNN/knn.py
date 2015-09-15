@@ -22,7 +22,7 @@ def KNN(train, x, k):
     for i in range(n):
         d[i] = np.array([dist(train[i][:-1], x)] + [train[i][-1]])
     
-    mysort(d)
+    d = sorted(d, key = lambda d_entry : d_entry[0])
 
     res = 0.0
     for i in range(k):

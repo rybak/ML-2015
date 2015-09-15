@@ -28,7 +28,7 @@ def main():
     best = 0
     best_k = 0
     for k in range(2, 15):
-        result = knn.testing(train, test, k)
+        result = knn.testing(train, data, k)
         print("k: ", k)
         print("Total error: %.5f" % result['er'])
         print("Precision: %.5f" % result['pre'])
@@ -39,7 +39,7 @@ def main():
             best = result['f1']
             best_k = k
 
-    result = knn.testing(train, test, best_k)
+    result = knn.testing(train, data, best_k)
     print("Best k:", best_k)
     print("Total error: %.5f" % result['er'])
     print("Precision: %.5f" % result['pre'])
