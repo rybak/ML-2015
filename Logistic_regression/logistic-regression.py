@@ -6,7 +6,7 @@ def optimize_regularization(data):
     data_train, data_test = split(data)
     p_best = 0
     for p in range(-40, 10):
-        print_time()
+        # print_time()
         print("2 ** ", p)
         rc = 2 ** p
         theta = logistic.train(data_train, l=rc)
@@ -20,6 +20,7 @@ def main():
     data = dataset_block(load_chips_dataset(), withOnes=False)
     reg_const, p = optimize_regularization(data)
     data_train, data_test = split(data)
+
     theta = logistic.train(data_train, l=reg_const)
     err = logistic.average_error(data_test, theta)
 

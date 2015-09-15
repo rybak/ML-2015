@@ -15,4 +15,12 @@ def average_error(data, theta):
     x, y = split_xy(data)
     theta0, theta1 = theta[-1], theta[:-1]
     predictions = 1 / (1 + np.exp(-y * (np.dot(x, theta1) + theta0)))
+    
+    answer = np.empty(predictions.shape)
+    for i, p in enumerate(predictions):
+        if p > 0.5:
+            answer[i] = -1
+        else:
+            answer[i] = 1
+    print(answer - y)
     return np.average(1 - predictions)
