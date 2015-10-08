@@ -1,17 +1,24 @@
-import ml
-
 support = {}
 
 
-def count_support(baskets, X):
-    X = tuple(X)
-    if X not in support:
+def count_support(baskets, item_set):
+    item_set = tuple(item_set)
+    if item_set not in support:
         count = 0
-        for basket_id, basket in baskets.items():
+        for basket in baskets.values():
             if all(x in basket for x in X):
                 count += 1
-        support[X] = count / len(baskets)
-    return support.get(X)
+        support[item_set] = count / len(baskets)
+    return support[item_set]
+
+
+def count_item_support(baskets, x):
+    if x not in support:
+        n = 0
+        for basket in baskets.values():
+            n += sum(n == item for item in basket)
+        support[x] = n / len(baskets)
+    return support[x]
 
 
 def count_confidence(data):
@@ -26,8 +33,11 @@ def count_conviction(data):
     return None
 
 
-def initL(transactions):
-    pass
+def initL(baskets, products, minimal_support):
+    def has_minimal_support(x):
+        return count_item_support(baskets, x) > minimal_support
+    large_1_itemsets = filter(has_minimal_support, products)
+    return large_1_itemsets
 
 
 def updateCk(C, L, k):
@@ -43,7 +53,7 @@ def generateLk(C, k, count):
 
 
 def apriori(transactions, eps):
-    L = initL(transactions)
+    L = initL(transactions, eps)
     k = 2
     C = {}
     while len(L[k - 1]) > 0:
