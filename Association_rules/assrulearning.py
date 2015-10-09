@@ -6,9 +6,9 @@ def count_support(baskets, item_set):
     if item_set not in support:
         count = 0
         for basket in baskets.values():
-            if all(x in basket for x in X):
+            if all(x in basket for x in item_set):
                 count += 1
-        support[item_set] = count / len(baskets)
+        support[item_set] = count
     return support[item_set]
 
 
@@ -16,8 +16,8 @@ def count_item_support(baskets, x):
     if x not in support:
         n = 0
         for basket in baskets.values():
-            n += sum(n == item for item in basket)
-        support[x] = n / len(baskets)
+            n += x in basket
+        support[x] = n
     return support[x]
 
 
